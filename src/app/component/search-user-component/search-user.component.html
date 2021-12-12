@@ -1,0 +1,6 @@
+<section>
+  <input [(ngModel)]="searchUser" (change)="onChange()">
+  <div *ngFor="let user of users">
+    {{ user.login }}
+  </div>
+</section>
